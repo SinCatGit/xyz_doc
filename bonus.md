@@ -1,3 +1,4 @@
+## API请求说明
 
 ## 通过G串查看源铸平台场外分红
 
@@ -79,7 +80,7 @@ curl https://yuanzhu.io/api/jet_bonuses/GBPZCIY3QWHT5ZVC5DBEITYSU5N45ULPYETUE46Z
 --- | --- | --- | ---
 msg | required，string | 信息 | ok
 status | required，integer | 执行结果(成功：0，失败：-1) | 
-amount | required，string | 领取分红币总数 | 20 * 10^8
+amount | required，string | 领取分红币总数 | 20 * 10^7
 count | required，string | 领取分红记录条数 | 5
 
 **msg possible errors**
